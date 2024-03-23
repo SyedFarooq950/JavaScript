@@ -508,23 +508,57 @@
 // highord(greet,3);
 
 
-let num=[1,2,3,4,5,6];
-function sammu(n){
-    for(i=0;i<=num.length;i++){
-        if(num[i]>n){
-           console.log(num[i])
-        }
+// let num=[1,2,3,4,5,6];
+// function sammu(n){
+//     for(i=0;i<=num.length;i++){
+//         if(num[i]>n){
+//            console.log(num[i])
+//         }
 
-    }
+//     }
+// }
+
+
+// let start=100;
+// let end=200;
+
+// function rando(start,end){
+//     let diff=end-start;
+//     console.log( Math.floor(Math.random()*diff)+1);
+// }
+// rando(10,20);
+
+// const student={
+//     name:"farooq",
+//     age:28,
+//     eng:10,
+//     math:20,
+//     phy:30,
+//     obj(){
+//         let avg=(this.eng+this.math+this.phy)/3;
+//         console.log(avg);
+//     }
+// }
+
+// -------------arror functions
+
+const sum=(a,b)=>{
+    console.log(a+b);
 }
 
 
-let start=100;
-let end=200;
-
-function rando(start,end){
-    let diff=end-start;
-    console.log( Math.floor(Math.random()*diff)+1);
+const sum1=()=>{
+    console.log("hello");
 }
-rando(10,20);
 
+const mul=(a,b)=>(
+    a+b
+    )
+
+console.log("kasassasa")
+let id=setInterval(()=>{
+    console.log("hello delay");},4000);
+
+    console.log("hello basasas");
+
+    clearInterval(id);
