@@ -506,3 +506,25 @@
 // }
 
 // highord(greet,3);
+
+
+let num=[1,2,3,4,5,6];
+function sammu(n){
+    for(i=0;i<=num.length;i++){
+        if(num[i]>n){
+           console.log(num[i])
+        }
+
+    }
+}
+
+
+let start=10;
+let end=20;
+
+function rando(start,end){
+    let diff=end-start;
+    console.log( Math.floor(Math.random()*diff)+1);
+}
+rando(10,20);
+
