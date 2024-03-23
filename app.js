@@ -519,8 +519,8 @@ function sammu(n){
 }
 
 
-let start=10;
-let end=20;
+let start=100;
+let end=200;
 
 function rando(start,end){
     let diff=end-start;
