@@ -562,3 +562,7 @@ let id=setInterval(()=>{
     console.log("hello basasas");
 
     clearInterval(id);
+   
+    a=add;
+    b=bad;
+    
