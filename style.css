@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+}
+
+
+.one{
+    background-color:brown;
+}
+#red{
+    color: red;
+}
+#pur{
+    color: peru;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+b{
+    background-color: bisque;
+    padding: 10px;
+}
+
+
+#ten{
+    border: 1px solid black;
+}
+
+.hr{
+    color: black;
+    text-decoration: dotted;
+}
+
+#spe{
+    color: black;
+}
+
+.hr{
+    list-style: none;
+}

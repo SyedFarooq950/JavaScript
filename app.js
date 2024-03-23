@@ -390,31 +390,119 @@
 
 // calsum(1,2);
 
-function outer() {
-    let x = 5;
-    let y = 10;
+// ----------function-----------
 
-    function inner() {
-        console.log(x);
+// function name(){
+//     console.log("farooq")
+// };
 
-    }
-
-    inner();
-}
+// name("farooq");
 
 
-const sum = function (a, b) {
-    return a + b;
-}
+// function age(age){
+
+//     if(age>=18){
+//         console.log("adult");
+//     }
+//     else{
+//         console.log("not adult")
+//     }
+// };
+
+// function hello(){
+//     console.log("hello");}
+
+// function sum(a,b){
+//     return a+b;}
 
 
-let arr = [8, 9, 10, 1, 2, 3, 4, 5, 6, 7];
+//     function oop(){
+//         for (i=1;i<=5;i++){
+//             console.log(i);
+//             if(i==3){
+//                 break;
+//             }
+//         }
+//     };
 
-function getElements(arr, num){
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] > num) {
-            console.log(arr[i]);
-        }
-    }
-}
-getElements(arr, 5);
+//  function avg(a,b,c){
+//      let average=(a+b+c)/3;
+//      console.log(average);
+// }
+
+// avg(2,3,4);
+
+
+// function sumq(n){
+//     let sum=0;
+//     for(i=0;i<=n;i++){
+//         sum=sum+i;}
+//         return sum;
+
+// }
+
+
+// let str=["hello", "farooq","how","are","you"];
+
+// function con(str){
+//     let store="";
+//     for(i=0;i<str.length;i++){
+//      store=store+str[i];}
+//      return store;
+//     }
+
+
+//         function addition(a,b){
+//             sum=a+b;
+//             console.log(sum);
+//         }
+
+//   function outer(){
+//     let a=1;
+//     let b=2;
+//     function inner(){
+//        console.log(a);
+//     }
+//     inner();
+//   }
+
+//   outer();
+
+
+//   let greet="aslm ramzan";
+// function changegreet(){
+//     let greet="mahe ramzan"
+//     console.log(greet);
+
+//     function inner(){
+//         console.log(greet);
+//     }
+//     inner();
+// }
+
+// console.log(greet);
+// changegreet();
+
+
+// let store=function(a,b){ 
+
+//     return a+b;
+// }
+
+// function farooq(str) {
+//      return str.repeat(5);
+    
+//     }
+
+
+// function highord(func,n){
+//     for(i=1;i<=n;i++){
+//         func();
+//     }
+// }
+
+// let greet=function(){
+//     console.log("hello");
+// }
+
+// highord(greet,3);
